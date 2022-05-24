@@ -1,6 +1,6 @@
 @echo off
 
-:: Script de creation d'une machine de developpement
+:: Launch test environment
 
 :: Lancement d'un machine avec le nom donne par l'utilisateur
 set /p NAME=Nom de l'instance multipass:
