@@ -1,0 +1,6 @@
+Name                    State             IPv4             Image
+dev                     Running           172.20.172.3     Ubuntu 20.04 LTS
+glpi                    Stopped           --               Ubuntu 20.04 LTS
+nginxdeploy             Stopped           --               Ubuntu 20.04 LTS
+php                     Stopped           --               Ubuntu 20.04 LTS
+test                    Running           172.20.173.106   Ubuntu 20.04 LTS

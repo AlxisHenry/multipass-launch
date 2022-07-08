@@ -1,8 +1,15 @@
 @echo off
 
-:: Input for the name of the instance
+:: Name
 set /p NAME=Name:
 if "%NAME%" == "" (SET NAME="default")
+
+:: Memory and Storage
+set /p MEMORY=Memory (default 2G):
+if "%MEMORY%" == "" (SET MEMORY="2G")
+set /p STORAGE=Storage (default 8G):
+if "%STORAGE%" == "" (SET STORAGE="8G")
+
 multipass launch -n %Name%
 
 :: Type
